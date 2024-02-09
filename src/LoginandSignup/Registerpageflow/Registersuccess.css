@@ -1,0 +1,157 @@
+.Maindiv7{
+    margin: 0;
+    background: linear-gradient(
+      131.16deg,
+      #e58b24 -75.93%,
+      #60334f 28.78%,
+      #442159 65.26%
+    );
+}
+.Mainregistersuccessdiv{
+    background-color: white;
+  width: 50vw;
+  height: 100vh;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.registerMaincontainerpasupdate{
+    width: 60%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+
+.registerupdatepasslogo{
+    width: 14rem;
+    height: 7rem;
+
+}
+
+.registerupdatepasshead{
+    font-family: Poppins;
+font-size: 2.4rem;
+font-weight: 600;
+/* line-height: 53px; */
+letter-spacing: 0em;
+text-align: center;
+color: #454545;
+}
+
+.registerwelcome{
+    width: 16rem;
+    height: 16rem;
+}
+
+.registerupdatepasspara{
+    font-family: Poppins;
+font-size: 1.7rem;
+font-weight: 400;
+/* line-height: 36px; */
+letter-spacing: 0em;
+text-align: center;
+color: #454545;
+}
+
+.registersuccessbutton{
+    width: 40rem;
+    height: 5.2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background: #400862;
+    font-family: poppins, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0px .4rem 2rem 0px #44215940;
+    transition: 0.2s ease-in;
+    margin: 3rem 0 1rem;
+
+}
+.registersuccessbutton:hover{
+    width: 40rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background: #711da6;
+  margin: 3rem 0 1rem;
+}
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1600px) {
+    html{
+        font-size: 68.5%!important;
+    }
+  }
+  @media only screen and (max-width: 1600px) and (min-width: 1400px){
+    html{
+        font-size: 62.5%!important;
+    }  
+  
+  }
+  
+  @media only screen and (max-width: 1400px) and (min-width: 1250px) {
+    html{
+        font-size: 58.5%!important;
+    } 
+    .Mainregistersuccessdiv {
+      height: 100vh;
+    }
+    .registerMaincontainerpasupdate{
+      height: 90vh;
+    }
+  
+  }
+  @media only screen and (max-width: 1250px) and (min-width: 1030px) {
+    html{
+        font-size: 47.5%!important;
+    }  
+    .Mainregistersuccessdiv {
+      height: 100vh;
+    }
+    .registerMaincontainerpasupdate{
+      height: 85vh;
+    }
+  
+  }
+  @media only screen and (max-width: 1030px) and (min-width: 900px) {
+    html{
+        font-size: 40.5%!important;
+    }  
+    .Mainregistersuccessdiv {
+      height: 100vh;
+    }
+    .registerMaincontainerpasupdate{
+      height: 80vh;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 900px) and (min-width: 800px) {
+    html{
+        font-size: 35.5%!important;
+    } 
+    .Mainregistersuccessdiv {
+      height: 100vh;
+    } 
+    .registerMaincontainerpasupdate{
+      height: 75vh;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 800px) and (min-width: 650px){
+    html{
+        font-size: 29.5%!important;
+    }  
+  }

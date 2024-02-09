@@ -1,0 +1,46 @@
+
+@media only screen and (max-width: 2000px) and (min-width: 1600px) {
+    html{
+        font-size: 68.5%!important;
+    }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px){
+    html{
+        font-size: 62.5%!important;
+    }  
+
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1250px) {
+    html{
+        font-size: 58.5%!important;
+    } 
+
+}
+@media only screen and (max-width: 1250px) and (min-width: 1030px) {
+    html{
+        font-size: 47.5%!important;
+    }  
+
+}
+@media only screen and (max-width: 1030px) and (min-width: 900px) {
+    html{
+        font-size: 40.5%!important;
+    }  
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+    html{
+        font-size: 35.5%!important;
+    }  
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 650px){
+    html{
+        font-size: 29.5%!important;
+    }  
+}
+
+

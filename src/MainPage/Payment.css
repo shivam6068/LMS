@@ -1,0 +1,242 @@
+html{
+  font-size: 62.5%;
+}
+.payenrollnavbar {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10.8rem;
+  padding: 1.5rem, 4.9rem, 1.5rem, 4.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.paynavbarlogo {
+  width: 14.8rem;
+  height: 7.8rem;
+}
+.paynavbarsection {
+  width: 128rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.paynavbar3logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 19rem;
+  height: 6rem;
+  padding: 0px, 0px, 0px, 4.3rem;
+}
+.paynavbarlogo3 {
+  width: 5.5rem;
+  height: 5.5rem;
+  left: 22.3rem;
+  background: #400862;
+  color: white;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 5rem;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 50%;
+}
+.paycartsection1 {
+  width: 100%;
+  height: 80rem;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #e3dee6; */
+}
+.paycartsection11 {
+  width: 75%;
+  height: 65rem;
+  display: flex;
+  justify-content: center;
+  /* background-color: #e3dee6; */
+}
+.paycartsection11div {
+  width: 85%;
+  height: 55rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.paycartsection11div1 {
+  width: 100%;
+  height: 8rem;
+}
+.paycartsection11heading {
+  font-family: poppins;
+  font-size: 3.4rem;
+  font-weight: 900;
+  line-height: 6rem;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #454545;
+}
+
+.paycartsection11div2 {
+  width: 100%;
+  height: 80rem;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.paycartsection11div2spn1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+font-family: Poppins;
+font-size: 1.4rem;
+font-weight: 100;
+line-height: 3rem;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.paycartsection11div2span2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: burlywood; */
+    width: 90%;
+}
+.paycartsection11div2button{
+    width: 38.5rem;
+height: 5.8rem;
+border-radius: 1.2rem;
+background-color:  #400862;
+box-shadow: 0px .4rem 2rem 0px #44215940;
+color: white;
+font-family: poppins;
+font-size: 1.7rem;
+font-weight: 600;
+line-height: 2.9rem;
+letter-spacing: 0em;
+text-align: center;
+transition: 0.1s all ease-in;
+}
+.paycartsection11div2button:hover{
+    background-color: #5b0c8b;
+    box-shadow: 0px .8rem 2rem 0px #44215940;
+}
+.paycartsection12 {
+  width: 40%;
+  height: 80rem;
+  /* background-color: blue; */
+}
+.paycartsection12div1 {
+  width: 45rem;
+  height: 28rem;
+  border-radius: 2rem;
+  opacity: .015rem;
+  position: relative;
+  top: 7rem;
+  background-color: #e3dee6;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.paycartsection12div1div{
+    width: 45rem;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.paycartsection12div1span1{
+font-family: Poppins;
+font-size: 1.9rem;
+font-weight: 600;
+/* line-height: 3.6rem; */
+letter-spacing: 0em;
+text-align: left;
+color: #454545;
+/* align-self: flex-start; */
+position: relative;
+right: 12rem;
+}
+.paycartsection12div11{
+    width: 90%;
+    height: 40%;
+    border-radius: 1rem;
+    box-shadow: 0px .4rem 2rem 0px #44215940;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.paycartsection12div111{
+    height: 20%;
+    width: 90%;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+font-family: Poppins;
+font-size: 2rem;
+font-weight: 900;
+/* line-height: 3.6rem; */
+letter-spacing: 0em;
+text-align: center;
+color:#454545;
+
+
+}
+.paycartsection12div111img{
+    width: 9rem;
+    height: 9rem;
+}
+.paycartsection12div112{
+    height: 20%;
+    width: 90%;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 500;
+line-height: 3rem;
+letter-spacing: 0em;
+text-align: left;
+color: #454545;
+
+}
+.paycartsection12div12{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 3rem;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+.paycartsection12div12span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

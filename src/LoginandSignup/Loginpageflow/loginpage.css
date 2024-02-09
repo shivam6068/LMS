@@ -1,0 +1,572 @@
+.html{
+  font-size: 62.5%;
+}
+body {
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+.Maindiv2 {
+  margin: 0;
+  background: linear-gradient(131.16deg, #E58B24 -75.93%, #60334F 28.78%, #442159 65.26%);
+}
+
+.lgpg-pagecontainer {
+  /* border:1.2px solid white; */
+  background-color: white;
+  width: 50vw;
+  height: 100vh;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lgpg-pagelogo {
+  position: relative;
+  top: 2rem;
+  width: 16.8rem;
+  height: 9rem;
+}
+
+.lgpg-logotext {
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* text-align: center; */
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #454545;
+}
+.logininnerdiv {
+  width: 60%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #a4a4a4; */
+}
+.loginflexboxdiv {
+  /* background-color: #c80000; */
+  /* padding: 20px; */
+  position: relative;
+  top: 2rem;
+}
+.loginicon{
+  width: 2rem;
+  /* height: 2rem; */
+}
+/* 
+email component css starts from here....................................... */
+
+.emailmaindiv {
+  width: 39rem;
+  margin: 1rem 0 0;
+}
+.emailsecdiv {
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 0px .4rem 2rem 0px rgba(68, 33, 89, 0.25);
+  border: none;
+  /* background-color: rgb(25, 255, 255); */
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+}
+.emailsecdiv:hover {
+  scale: 1.0005;
+  box-shadow: 0px 4px 20px 0px rgba(30, 10, 58, 0.35);
+  cursor: pointer;
+}
+.emailpara {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.emailtext {
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #454545;
+}
+.emailinput {
+  width: 32rem;
+  height: 3rem;
+  /* top:9px; */
+  left: 2.8rem;
+  position: relative;
+  border: none;
+  outline: none;
+  color: var(--colours-light-grey-text, #a4a4a4);
+  font-family: "Belanosima", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* background-color: #f7f7f7; */
+  text-align: left;
+}
+.emailinput:hover{
+  cursor: pointer;
+}
+.emailicon {
+  width: 2rem;
+  height: 1.585rem;
+  /* top:10.96px; */
+  left: 1.6rem;
+  position: relative;
+}
+.errorimage{
+  width:1.7rem;
+}
+
+.errormessageemail {
+  color: var(--colours-error-red, #c80000);
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  width: 39rem;
+  /* background-color: #454545; */
+}
+
+/* 
+   password component css starts from here.......................... */
+
+.passMaindiv {
+  width: 39rem;
+  margin: 2.5rem 0 1rem;
+}
+.passsecdiv {
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 0rem .4rem 2rem 0px rgba(68, 33, 89, 0.25);
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(25, 255, 255); */
+}
+.passsecdiv:hover {
+  scale: 1.0005;
+  box-shadow: 0px .4rem 2rem 0px rgba(30, 10, 58, 0.35);
+  cursor: pointer;
+}
+.passpara {
+  padding: 0;
+  margin: 0;
+}
+.passtext {
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #454545;
+}
+.passinput {
+  width: 30rem;
+  height: 3rem;
+  /* background-color: #a4a4a4; */
+  /* top: 9px; */
+  left: .4rem;
+  position: relative;
+  border: none;
+  outline: none;
+  color: var(--colours-light-grey-text, #a4a4a4);
+
+  font-size: 1.6rem;
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 3rem;
+  line-height: normal;
+  text-align: left;
+}
+.passinput:hover{
+  cursor: pointer;
+}
+.passicon1 {
+  width: 2.2rem;
+  height: 1.189rem;
+  left: 1.4rem;
+  position: relative;
+}
+.passicon2 {
+  width: 2.2rem;
+  height: 1.189rem;
+  /* top: 10.96px; */
+  /* left: 100.48px; */
+  /* position: relative; */
+}
+.checkboxspan {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 18rem;
+}
+.checkbox {
+  width: 1.9rem;
+  height: 1.9rem;
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: 0px .4rem 2rem 0px rgba(30, 10, 58, 0.35);
+  border-radius: .5rem;
+}
+.checkboxheading {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.checkboxlink {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.checkbox:checked:before {
+  content: "\2714";
+  background: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  font-weight: 900;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  border: .2rem solid black;
+}
+
+.checkboxdiv {
+  width: 39rem;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.spacingline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+}
+.orpara{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #454545;
+}
+.lastdivlogin {
+  /* padding-top: 35px; */
+}
+
+.lastdivloginbutton1 {
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background: #400862;
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.9rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0px .4rem 2rem 0px #44215940;
+  transition: 0.2s ease-in;
+}
+.lastdivloginbutton1:hover {
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  background: #711da6;
+}
+.lastdivloginbutton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #454545;
+  background-color: #ffffff;
+  box-shadow: 0px .256000018119812rem 1.6rem 0px #53405f40;
+  transition: 0.1s ease-in;
+}
+.lastdivloginbutton2:hover {
+  box-shadow: 0px .6rem .25rem 0px #44215940;
+}
+
+.google {
+  padding-right: 1.8rem;
+  width: 2.3rem;
+}
+.createaccount {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.createaccounta{
+  transition: 0.1s ;
+}
+.createaccounta:hover{
+  font-size: 1.7rem;
+  
+}
+
+/* css for error div...................................................................................................... */
+.errordiv {
+  width: 39rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #ffd9e2;
+  border-radius: 1rem;
+  margin: 1.5rem 0 1.5rem;
+}
+.errorimage {
+  padding-left: 3rem;
+}
+.errorspan {
+  color: #c80000;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  letter-spacing: 0em;
+  padding: .3rem;
+  padding-left: 1rem;
+}
+
+.backbutton{
+  position: relative;
+  display: inline;
+  right:28rem;
+  bottom: 3rem;
+  width: 8rem;
+  height: 2.5rem;
+  /* background-color: #c80000; */
+  /* display: none; */
+}
+.divbackbutton{
+  position: relative;
+  display: inline;
+  right:28rem;
+  bottom: 3rem;
+  width: 8rem;
+  height: 2.5rem;
+  /* background-color:blue; */
+}
+
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1600px) {
+  html{
+      font-size: 65.5%!important;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px){
+  html{
+      font-size: 62.5%!important;
+  }  
+}
+@media only screen and (max-width: 1400px) and (min-width: 1300px){
+  html{
+      font-size: 58.5%!important;
+  }  
+  .logininnerdiv{
+    height: 90%!important;
+  }
+}
+@media only screen and (max-width: 1300px) and (min-width: 1200px){
+  html{
+      font-size: 54.5%!important;
+  } 
+  .logininnerdiv{
+    height: 87%!important;
+  } 
+}
+@media only screen and (max-width: 1200px) and (min-width: 1100px){
+  html{
+      font-size: 50.5%!important;
+  }  
+  .logininnerdiv{
+    height: 84%!important;
+  } 
+}
+@media only screen and (max-width: 1100px) and (min-width: 1000px){
+  html{
+      font-size: 46.5%!important;
+  } 
+  .logininnerdiv{
+    height: 81%!important;
+  }  
+}
+@media only screen and (max-width: 1000px) and (min-width: 900px){
+  html{
+      font-size: 42.5%!important;
+  }  
+  .logininnerdiv{
+    height: 78%!important;
+  } 
+}
+@media only screen and (max-width: 900px) and (min-width: 800px){
+  html{
+      font-size: 38.5%!important;
+  } 
+  .logininnerdiv{
+    height: 75%!important;
+  }  
+}
+@media only screen and (max-width: 800px) and (min-width: 700px){
+  html{
+      font-size: 34.5%!important;
+  }  
+  .logininnerdiv{
+    height: 72%!important;
+  } 
+}
+@media only screen and (max-width: 700px) and (min-width: 600px){
+  html{
+      font-size: 30.5%!important;
+  }
+  .logininnerdiv{
+    height: 69%!important;
+  }   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+@media only screen and (max-width: 1300px) and (min-width: 1250px){
+  html{
+      font-size: 58.5%!important;
+  }  
+}
+
+@media only screen and (max-width: 1250px) and (min-width: 1150px) {
+  html{
+      font-size: 55.5%!important;
+  } 
+  .logininnerdiv{
+    height: 90%;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (min-width: 1050px) {
+  html{
+      font-size: 50.5%!important;
+  } 
+  .logininnerdiv{
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 1050px) and (min-width: 1000px) {
+  html{
+      font-size: 47.5%!important;
+  } 
+  .logininnerdiv{
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 1000px) and (min-width: 900px) {
+  html{
+      font-size: 44.5%!important;
+  }  
+
+  .logininnerdiv{
+    height: 85%;
+  }
+
+}
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+  html{
+      font-size: 40.5%!important;
+  }  
+
+  .logininnerdiv{
+    height: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 700px) {
+  html{
+      font-size: 37.5%!important;
+  } 
+
+  .logininnerdiv{
+    height: 75%;
+  }
+
+}
+
+@media only screen and (max-width: 700px) and (min-width: 650px){
+  html{
+      font-size: 29.5%!important;
+  }  
+} */

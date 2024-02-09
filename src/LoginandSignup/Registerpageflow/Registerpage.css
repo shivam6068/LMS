@@ -1,0 +1,709 @@
+.registerpagemaindiv1 {
+  margin: 0;
+
+  background: linear-gradient(
+    131.16deg,
+    #e58b24 -75.93%,
+    #60334f 28.78%,
+    #442159 65.26%
+  );
+}
+.registericon{
+  width:2rem;
+}
+.registerpagemaindiv2 {
+  background-color: white;
+  width: 65vw;
+  height: 128vh;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+}
+
+.registerpageimg1 {
+  width: 17rem;
+  height: 8rem;
+}
+.registerpagespan1 {
+  /* font-family: Poppins; */
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3.6rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #454545;
+  /* width: 700px; */
+}
+
+/* form section css starts from here.................................................................................................................................. */
+
+.registerpagesection1 {
+  width: 85rem;
+  height: 55vh;
+  /* background-color: #A4A4A4; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.registerpagediv1 {
+  height: 25%;
+  width: 100%;
+  /* background-color: aquamarine; */
+  /* border: 1px solid black;   */
+}
+.registerpagediv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #60334f;
+  border: 1px solid black;; */
+}
+
+/* form email component css starts from here  .............................................................................................*/
+
+.registeremailmaindiv {
+  width: 39rem;
+  margin: 1rem 0 0;
+}
+.registeremailsecdiv {
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 0px .4rem 2rem 0px rgba(68, 33, 89, 0.25);
+  border: none;
+  /* background-color: rgb(25, 255, 255); */
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+}
+.registeremailsecdiv:hover {
+  scale: 1.0005;
+  box-shadow: 0px .4rem 2rem 0px rgba(30, 10, 58, 0.35);
+  cursor: pointer;
+}
+.registeremailpara {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.registeremailtext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #454545;
+}
+.registeremailinput {
+  width: 32rem;
+  height: 3rem;
+  /* top:9px; */
+  left: 2.8rem;
+  position: relative;
+  border: none;
+  outline: none;
+  color: var(--colours-light-grey-text, #a4a4a4);
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* background-color: #f7f7f7; */
+  text-align: left;
+}
+.registeremailinput:hover{
+  cursor: pointer;
+}
+.registeremailicon {
+  width: 2rem;
+  height: 1.585rem;
+  /* top:10.96px; */
+  left: 1.6rem;
+  position: relative;
+}
+
+.registererrormessageemail {
+  color: var(--colours-error-red, #c80000);
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  width: 39rem;
+  /* background-color: #454545; */
+}
+/* captcha css starts from here....................................................................................................................................... */
+
+.maincaptchadiv {
+  width: 33rem;
+  height: 6.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.mainspan{
+  width: 33rem;
+  height: 6.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.captcha {
+  color: var(--colours-text-grey, #454545);
+  font-family: Glypster;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+}
+
+.reloadcaptcha {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+.inputcaptcha {
+  width: 14rem;
+  height: 4rem;
+  border-radius: .8rem;
+  font-family: "Belanosima", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: var(--colours-white, #fff);
+  border: none;
+
+  /* signup shadow */
+  box-shadow: 0px 4px 20px 0px rgba(68, 33, 89, 0.25);
+  color: var(--colours-light-grey-text, #a4a4a4);
+  font-size: 1.5rem;
+
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+}
+.inputcaptcha:hover{
+  cursor: pointer;
+}
+.inputcaptcha::placeholder{
+  position: relative;
+  left: -0px;
+}
+
+.captchaerrormessage {
+  color: var(--colours-error-red, #c80000);
+  /* font-family: Poppins; */
+  font-size: 1.3rem;
+  /* font-style: normal; */
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  left: .5rem;
+  align-self: flex-start;
+  /* position: absolute; */
+}
+
+
+
+/* username css starts from here.............................................................................................................. */
+
+
+.usermaindiv{
+  width: 39rem;
+  margin: 1rem 0 0;
+
+}
+.usersecdiv{
+
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 0px .4rem 2rem 0px rgba(68, 33, 89, 0.25) ;
+  border: none;
+  /* background-color: rgb(255, 255, 255); */
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+  /* background-color: #a4a4a4; */
+}
+.usersecdiv:hover{
+  scale: 1.0005;
+    box-shadow: 0px .4rem 2rem 0px rgba(30, 10, 58, 0.35);
+    cursor: pointer;
+}
+.userpara{
+    padding: 0;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.usericon1{
+  width: 1.68rem;
+  height: 1.2rem;
+  border-radius: 50%;
+}
+
+
+.usertext {
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #454545;
+
+}
+.userinput{
+
+  width: 32rem;
+  height: 3rem;
+  /* top:9px; */
+  left: 2.8rem;
+  position: relative;
+  border: none;
+  outline: none;
+  color: var(--colours-light-grey-text, #a4a4a4);
+  font-family: "Belanosima", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* background-color: #f7f7f7; */
+  text-align: left;
+
+}
+.userinput:hover{
+  cursor: pointer;
+}
+.usericon2{
+
+  width: 2rem;
+  height: 1.585rem;
+  /* top:10.96px; */
+  left: 1.6rem;
+  position: relative;
+}
+
+
+.errorusername{
+  color: var(--colours-error-red, #c80000);
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  width: 39rem;
+}
+
+.guiderdiv{
+  width:27.2rem;
+  height:18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #a4a4a4; */
+  /* left: 128px; */
+  z-index: 20;
+top:20rem;
+right: 9rem;
+position: absolute;
+border-radius: 1rem;
+}
+.userguider{
+width: 26.2rem;
+height:16rem;
+border-radius: 1rem;
+z-index: 20;
+background-color: white;
+box-shadow: 0px .4rem 2rem 0px rgba(68, 33, 89, 0.25) ;
+color: var(--colours-light-grey-text, #a4a4a4);
+font-family: "Belanosima", sans-serif;
+font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  /* position: absolute; */
+  text-align: left;
+/* display: block; */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ /* background-color: #a4a4a4; */
+}
+#heading{
+color: black;
+text-align: center;
+position: relative;
+top:1rem;
+}
+.list{
+  font-size: 1.05rem;
+  /* background-color: #e58b24; */
+  padding: 20px;
+  color: black;
+}
+
+/* phone component starts from here.......................................................................................................... */
+
+
+.para{
+  color: var(--colours-text-grey, #454545);
+  font-family: 'Belanosima', sans-serif;
+  font-family: 'Poppins', sans-serif;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0;
+padding: 0;
+border: none;
+}
+.phone-input-container{
+  box-shadow: 0px .4rem 2rem 0px rgba(68, 33, 89, 0.25);
+  border-radius: 1.2rem;
+  background: var(--colours-white, #FFF);
+  width: 39rem;
+  height : 5.2rem;
+  border: none;
+}
+.phone-input-container:hover{
+  cursor: pointer;
+}
+
+.errormessage{
+  color: red;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+
+  font-family: Poppins;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* position: absolute; */
+  text-align: right;
+  width: 39rem;
+
+}
+.flag-dropdown{
+  border-radius: 1.2rem 0px 0px 1.2rem !important;
+
+}
+
+
+
+
+/* password css starts from here.............................................................................................................. */
+
+.regpassnewMaindiv {
+  width: 39rem;
+  margin: 1rem 0 0px;
+}
+.regpassnewsecdiv {
+  width: 39rem;
+  height: 5.2rem;
+  border-radius: 1rem;
+  outline: none;
+  box-shadow: 0px .4rem 2rem 0px rgba(68, 33, 89, 0.25);
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin-top: .5rem;
+  /* background-color: rgb(25, 255, 255); */
+}
+.regpassnewsecdiv:hover {
+  scale: 1.0005;
+  box-shadow: 0px .4rem 2rem 0px rgba(30, 10, 58, 0.35);
+  cursor: pointer;
+}
+.regpassnewpara {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+.regpassnewtext {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  color: #454545;
+}
+.regpassnewinput {
+  width: 30rem;
+  height: 3rem;
+  /* background-color: #a4a4a4; */
+  /* top: 9px; */
+  left: .4rem;
+  position: relative;
+  border: none;
+  outline: none;
+  color: var(--colours-light-grey-text, #a4a4a4);
+
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
+  line-height: normal;
+  text-align: left;
+}
+.regpassnewinput:hover{
+  cursor: pointer;
+}
+.regpassnewicon1 {
+  width: 2.2rem;
+  height: 1.189rem;
+  left: .8rem;
+  position: relative;
+}
+.regpassnewicon2 {
+  width: 2.2rem;
+  height: 1.189rem;
+  /* top: 10.96px; */
+  /* left: 100.48px; */
+  /* position: relative; */
+  right: .8rem;
+  position: relative;
+}
+.regindicator {
+  width: 39rem;
+  height: 0px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  /* background-color: #454545; */
+}
+.regpara {
+  width: 39rem;
+  height: .9rem;
+  margin-top: .6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  /* background-color: #a4a4a4; */
+}
+.regindicatordiv {
+  width: 10rem;
+  height: .9rem;
+  border-radius: .5rem;
+  background-color: grey;
+}
+.regindicatorpara {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+.strenghtindicator{
+  position: relative;
+  right:  23rem;
+  bottom: 2rem;
+  /* height: 20px; */
+}
+
+
+
+
+
+/* login css starts here...................................................................................................................... */
+.registerpagelastdivlogin {
+  padding-top: 2rem;
+}
+
+.registerlastdivloginbutton1 {
+  width: 38rem;
+  height: 4.5rem;
+  border-radius: .7rem;
+  outline: none;
+  border: none;
+  background: #400862;
+  /* font-family: poppins, sans-serif; */
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 2.9rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0px .4rem 2rem 0px #44215940;
+  transition: 0.2s ease-in;
+}
+.registerlastdivloginbutton1:hover {
+  width: 38rem;
+  height: 4.5rem;
+  border-radius: .7rem;
+  outline: none;
+  border: none;
+  background: #711da6;
+}
+.registerlastdivloginbutton2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 38rem;
+  height: 4.5rem;
+  border-radius: .7rem;
+  outline: none;
+  border: none;
+  /* font-family: poppins, sans-serif; */
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #454545;
+  background-color: #ffffff;
+  box-shadow: 0px .256000018119812rem 16px 0px #53405f40;
+  transition: 0.1s ease-in;
+}
+.registerlastdivloginbutton2:hover {
+  box-shadow: 0px .6rem 2.5rem 0px #44215940;
+}
+
+.registergoogle {
+  padding-right: 2rem;
+  width: 2rem;
+}
+.registercreateaccount {
+  font-weight: 550;
+  font-size: 1.4rem;
+}
+
+.registerpagespan2 {
+  font-size: 1.6rem;
+  /* font-style: normal; */
+  font-weight: 400;
+  /* line-height: normal; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.registerinput {
+  position: relative;
+  right: 1.5rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: 0px .4rem 2rem 0px rgba(30, 10, 58, 0.35);
+  border-radius: .5rem;
+}
+
+.registerinput:checked:before {
+  content: "\2714";
+  background: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  border: .2rem solid black;
+  font-weight: 900;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+}
+
+
+
+@media only screen and (max-width: 2000px) and (min-width: 1600px) {
+  html{
+      font-size: 68.5%!important;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1400px){
+  html{
+      font-size: 62.5%!important;
+  }  
+
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1250px) {
+  html{
+      font-size: 58.5%!important;
+  } 
+  .registerpagemaindiv2 {
+    height: 112vh;
+  }
+  .registerpagesection1{
+    height: 50vh;
+  }
+
+}
+@media only screen and (max-width: 1250px) and (min-width: 1030px) {
+  html{
+      font-size: 47.5%!important;
+  }  
+  .registerpagemaindiv2 {
+    height: 106vh;
+  }
+  .registerpagesection1{
+    height: 45vh;
+  }
+
+}
+@media only screen and (max-width: 1030px) and (min-width: 900px) {
+  html{
+      font-size: 40.5%!important;
+  }  
+  .registerpagemaindiv2 {
+    height: 100vh;
+  }
+  .registerpagesection1{
+    height: 40vh;
+  }
+
+}
+
+@media only screen and (max-width: 900px) and (min-width: 800px) {
+  html{
+      font-size: 35.5%!important;
+  } 
+  .registerpagemaindiv2 {
+    height: 100vh;
+  } 
+  .registerpagesection1{
+    height: 35vh;
+  }
+
+}
+
+@media only screen and (max-width: 800px) and (min-width: 650px){
+  html{
+      font-size: 29.5%!important;
+  }  
+}
